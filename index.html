@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wardrobe Harmony</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            background-image: url('fashion-background.jpg');
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 300px;
+            max-width: 2000px; 
+        }
+
+        /* Navigation Styles */
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #fff;        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 200px 20px 20px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .hero {
+            padding: 100px 0;
+            text-align: center;
+            color: #000;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: rgba(42, 131, 232, 0.8);
+            color: #fff;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 40px 0;
+            text-align: center;
+            margin-top: 50px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .feature {
+            max-width: 300px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .feature:hover {
+            transform: scale(1.05);
+        }
+
+        .feature img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .feature h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #000;
+        }
+
+        .feature p {
+            font-size: 1.2rem;
+            color: #000;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgba(42, 131, 232, 0.8);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            font-size: 0.8rem;
+            z-index: 999;
+        }
+
+        /* Additional Info Styles */
+        .info {
+            margin-top: 50px;
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <img src="C:\Users\yosou\Documents\Codesoft\WiseWater\wisewaterlogo.png" alt="WiseWater Logo">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="content">
+                <h2>Don't Let It Drain, Harvest the Rain!</h2>
+                <p>Join WiseWater in our mission to conserve water and protect our planet's most precious resource.</p>
+                <a href="#tips" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature">
+                <img src="https://img.freepik.com/premium-vector/global-water-circulation-vector-symbol-use-mineral-water-advertising-environment-protection-concept_570429-36718.jpg" alt="Model 1">
+                <h3>Water Conservation</h3>
+                <p>Learn about our innovative water conservation techniques and solutions for a sustainable future.</p>
+            </div>
+            <div class="feature">
+                <img src="https://static.vecteezy.com/system/resources/previews/005/370/822/non_2x/abstract-future-nature-logo-vector.jpg" alt="Community Outreach">
+                <h3>Community Outreach</h3>
+                <p>Discover how we engage with communities to promote water conservation awareness and education.</p>
+            </div>
+            <div class="feature">
+                <img src="https://media.istockphoto.com/id/1266901326/vector/nature-care-logo-designs-concept-vector-leaf-and-water-logo-symbol.jpg?s=612x612&w=0&k=20&c=vgVN5Rm15wQh1aU53H3Twjb1ex8bP89jfcc5xfo8l5w=" alt="Technology Innovation">
+                <h3>Technology Innovation</h3>
+                <p>Explore our cutting-edge technologies designed to optimize water usage and reduce environmental impact.</p>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <div class="info">
+            <p>Join WaterWise now to be a part of the change!</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Wardrobe Harmony. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+
+
+
